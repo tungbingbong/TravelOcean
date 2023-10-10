@@ -1,0 +1,14 @@
+{
+  "liveServer.settings.port": 5501,
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "editor.fontSize": 12,
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "comments": true,
+    "strings": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggest.preview": false
+}

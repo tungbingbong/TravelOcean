@@ -1,0 +1,60 @@
+{
+    "comments": [
+        {
+            "name": "Mai Ngoc",
+            "comment": "Journey Joy Resorts is a paradise for travel enthusiasts! The beautiful visuals, paired with an extensive range of accommodation choices, create an exciting journey even before the trip begins. A reliable companion for all my travel plans. 🌍❤️",
+            "like": 13,
+            "date": "16-04-2023",
+            "avatar": "https://kenh14cdn.com/thumb_w/660/203336854389633024/2023/6/25/photo-14-16876571013351570931446.jpg",
+            "id": 1
+        },
+        {
+            "name": "Phạm Phương Linh",
+            "comment": "Incredible site for booking travel! The sleek design and intuitive interface make planning my trips a joy. I always find amazing hotel options at competitive prices. A must-visit for any traveler! 🌟✈️",
+            "like": 35,
+            "date": "12-07-2023",
+            "avatar": "https://kenh14cdn.com/thumb_w/660/203336854389633024/2023/7/8/photo-9-16888099662661094157342.jpg",
+            "id": 2
+        },
+        {
+            "name": "Jolie Nguyen",
+            "comment": "Kudos to Destiny Bookings! I've been using this site for years, and it never fails to impress. The vast selection of hotels and the seamless booking process keep me coming back. Truly a traveler's paradise! 🏨🌎",
+            "like": 24,
+            "date": "01-05-2023",
+            "avatar": "https://bedental.vn/wp-content/uploads/2022/11/hot-girl_17.jpg",
+            "id": 3
+        },
+        {
+            "avatar": "https://anhdep123.com/wp-content/uploads/2021/02/hot-girl-de-thuong-dang-yeu.jpg",
+            "name": "Phuong Trinh",
+            "comment": "Ocean Oasis: Experience the height of relaxation at our beach resort and hotel, a tranquil escape by the sparkling sea",
+            "date": "October 8, 2023",
+            "like": 0,
+            "id": 4
+        },
+        {
+            "avatar": "https://images2.thanhnien.vn/zoom/686_429/528068263637045248/2023/5/16/34666889016966709574215976567665228656422086n-16842084622171604855085-453-0-1307-1366-crop-16842087232311811226027.jpg",
+            "name": "Rosy Zhao",
+            "comment": "Sandy Toes, Luxury Stays: Indulge in a beach resort and hotel, where the rhythm of the waves meets unparalleled hospitality",
+            "date": "October 8, 2023",
+            "like": 0,
+            "id": 5
+        }
+    ],
+    "tours": [
+        {
+            "id": 1,
+            "name": "Vung Tau",
+            "description": "Coastal Chic: Revel in a beach resort and hotel.",
+            "price": "120$",
+            "img": "https://ceoworld.biz/wp-content/uploads/2021/05/Soneva-Fushi.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Nha Trang",
+            "description": "Enjoy a wonderful vacation in resort paradise",
+            "price": "100$",
+            "img": "https://tranhoangkhang1212.github.io/travelix/assets/images/bg_header.webp"
+        }
+    ]
+}

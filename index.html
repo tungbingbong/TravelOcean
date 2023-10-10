@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            type="image/jpg"
+            href="data:image/png;base64,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"
+        />
+        <title>Ocean Travel</title>
+        <link rel="stylesheet" href="./assets/style.css" />
+        <link rel="stylesheet" href="./assets/grid.css" />
+        <link rel="stylesheet" href="./assets/responsive.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&family=Satisfy&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../font/fontawesome-free-5.15.3-web/css/all.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+    </head>
+
+    <body>
+        <div class="Ocean">
+            <header class="header">
+                <a href="#" class="header_logo">
+                    <img src="../image/logo-color.png" alt="logo" />
+                </a>
+                <div class="rightSide">
+                    <div class="btn user_account">
+                        <a style="margin-top: 8px" href="./pages/login.html">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="btn dayNight">
+                        <ion-icon name="moon-outline"></ion-icon>
+                        <ion-icon name="sunny-outline"></ion-icon>
+                    </div>
+                    <div class="btn menuToggle">
+                        <ion-icon name="menu-outline"></ion-icon>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#slider-wrap">Promotion</a></li>
+                    <li><a href="#list-tour">Packages</a></li>
+                    <li><a href="#top-review">reviews</a></li>
+                    <li><a href="#contact-us-wrap">contact</a></li>
+                </ul>
+            </header>
+
+            <section class="header-video">
+                <video src="../image/video.mp4" autoplay loop muted type="mp4"></video>
+                <img src="../image/mask.jpg" alt="img" />
+                <h2>Ocean</h2>
+                <ul class="social-link">
+                    <li>
+                        <a href="https://www.facebook.com/" target="blank"
+                            ><ion-icon name="logo-facebook"></ion-icon
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="blank"
+                            ><ion-icon name="logo-instagram"></ion-icon
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </li>
+                </ul>
+                <audio
+                    src="../image/Am-thanh-gio-bien-va-song-mua-he-www_tiengdong_com.mp3"
+                    autoplay
+                    loop
+                    type="mp3"
+                ></audio>
+            </section>
+
+            <!-- Search -->
+            <div class="search-container">
+                <div class="grid wide">
+                    <div class="search_list-filter grid wide">
+                        <div class="row">
+                            <div class="search_item-filter d-flex active">
+                                <img src="../image/hotel.webp" alt="hotel" />
+                                <h2>Hotels</h2>
+                            </div>
+                            <div class="search_item-filter d-flex">
+                                <img src="../image/car.webp" alt="car rental" />
+                                <h2>Car Rentals</h2>
+                            </div>
+                            <div class="search_item-filter d-flex">
+                                <img src="../image/fly.webp" alt="flight" />
+                                <h2>Flights</h2>
+                            </div>
+                            <div class="search_item-filter d-flex">
+                                <img src="../image//trip.webp" alt="trip" />
+                                <h2>Trip</h2>
+                            </div>
+                            <div class="search_item-filter d-flex">
+                                <img src="../image/cruises.webp" alt="Cruise" />
+                                <h2>Cruises</h2>
+                            </div>
+                            <div class="search_item-filter d-flex">
+                                <img src="../image/activities.webp" alt="Activities" />
+                                <h2>Activities</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-form-wrap">
+                        <div class="row">
+                            <div class="search-form-item l-4 m-6 c-12">
+                                <div class="search-form">
+                                    <span>destination</span>
+                                </div>
+                                <input type="text" placeholder="Search..." />
+                            </div>
+                            <div class="search-form-item l-2 m-6 c-12">
+                                <div class="search-form">
+                                    <span>check in</span>
+                                </div>
+                                <input type="text" placeholder="dd/mm/yyyy" />
+                            </div>
+                            <div class="search-form-item l-2 m-6 c-12">
+                                <div class="search-form">
+                                    <span>check out</span>
+                                </div>
+                                <input type="text" placeholder="dd/mm/yyyy" />
+                            </div>
+                            <div class="search-form-item l-1 m-3 c-6">
+                                <div class="search-form">
+                                    <span>adults</span>
+                                    <select id="cars">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="search-form-item l-1 m-3 c-6">
+                                <div class="search-form">
+                                    <span>children</span>
+                                    <select id="cars">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="search-form-btn l-2 m-4 c-6">
+                                <a href="#">Search</a>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider -->
+            <div id="slider-wrap" class="slider-wrap">
+                <div class="tour-title title-form zoom-mb">
+                    <h3>promotionr</h3>
+                    <span>Special tour</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem
+                        ipsum.
+                    </p>
+                </div>
+                <div class="grid wide">
+                    <div class="row countdown-container">
+                        <!-- countdown -->
+                        <div class="col l-3 c-12 counter-wrap">
+                            <div class="sale-time">
+                                <div class="sale-time__title hide-on-mobile-tablet">
+                                    <p class="sale-time__sub-title">LAST MINUTE !</p>
+                                    <h2 class="sale-time__main-title">Winter sale</h2>
+                                </div>
+                                <div class="sale-time__countdown">
+                                    <div class="sale-time__days sale-time__form">
+                                        <h2 class="sale-time__days__number">000</h2>
+                                        <p class="sale-time__days__text">Days</p>
+                                    </div>
+                                    <div class="sale-time__hours sale-time__form">
+                                        <h2 class="sale-time__hours__number">00</h2>
+                                        <p class="sale-time__hours__text">hours</p>
+                                    </div>
+                                    <div class="sale-time__minutes sale-time__form">
+                                        <h2 class="sale-time__minutes__number">00</h2>
+                                        <p class="sale-time__minutes__text">minutes</p>
+                                    </div>
+                                    <div class="sale-time__seconds sale-time__form">
+                                        <h2 class="sale-time__seconds__number">00</h2>
+                                        <p class="sale-time__seconds__text">seconds</p>
+                                    </div>
+                                    <button class="sale-time__btn hide-on-mobile-tablet">Check now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- slider -->
+                        <div class="col l-9 m-12 c-12">
+                            <div class="slider">
+                                <div class="slider-imgs">
+                                    <div class="slider__img slider1">
+                                        <div class="slider__img__text">
+                                            <h3>welcome to</h3>
+                                            <h2>Vinh Ha Long</h2>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                                ligula eget dolor lorem ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="slider__img slider2">
+                                        <div class="slider__img__text">
+                                            <h3>welcome to</h3>
+                                            <h2>Nha Trang</h2>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                                ligula eget dolor lorem ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="slider__img slider3">
+                                        <div class="slider__img__text">
+                                            <h3>welcome to</h3>
+                                            <h2>Da Nang</h2>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                                ligula eget dolor lorem ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="slider__img slider4">
+                                        <div class="slider__img__text">
+                                            <h3>welcome to</h3>
+                                            <h2>Phu Quoc</h2>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                                ligula eget dolor lorem ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="slider__img slider5">
+                                        <div class="slider__img__text">
+                                            <h3>welcome to</h3>
+                                            <h2>Vung Tau</h2>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                                ligula eget dolor lorem ipsum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-btn">
+                                    <span onclick="btn_slide(1)"></span>
+                                    <span onclick="btn_slide(2)"></span>
+                                    <span onclick="btn_slide(3)"></span>
+                                    <span onclick="btn_slide(4)"></span>
+                                    <span onclick="btn_slide(5)"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- list tour -->
+            <div id="list-tour" class="list-tour">
+                <div class="tour-title title-form">
+                    <h3>Choose your</h3>
+                    <h2>wonderful holiday</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem
+                        ipsum.
+                    </p>
+                </div>
+                <div class="grid">
+                    <div class="row render-tours">
+                        <!-- { render tours main.js }-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- service -->
+            <div class="service-wrap hi">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-12 m-12 mr-mb-center">
+                            <div class="service">
+                                <div class="service-form service__destinations">
+                                    <h2>00</h2>
+                                    <p>Destinations</p>
+                                </div>
+                                <div class="service-form service__tour-pack">
+                                    <h2>00</h2>
+                                    <p>tour pack</p>
+                                </div>
+                                <div class="service-form service__cruises">
+                                    <h2>00</h2>
+                                    <p>cruises</p>
+                                </div>
+                                <div class="service-form service__hour-support">
+                                    <h2>00</h2>
+                                    <p>hour support</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top review -->
+            <div id="top-review" class="top-review">
+                <div class="tour-title title-form">
+                    <h2>top reviews</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem
+                        ipsum.
+                    </p>
+                </div>
+                <div class="grid wide">
+                    <div class="row height-top-review">
+                        <div class="col l-9 m-8 c-12">
+                            <div class="form-review">
+                                <div class="row render-comments">
+                                    <!-- {render comment} - main.js -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-12">
+                            <div class="form-comment">
+                                <div class="form-input__user">
+                                    <input
+                                        class="user__avatar"
+                                        name="user__avatar"
+                                        type="url"
+                                        placeholder="URl image..."
+                                    />
+                                    <img src="../image/pinimagebeach.jpeg" alt="img" />
+                                    <div class="form-input__user__name">
+                                        <input
+                                            type="text"
+                                            name="user__name"
+                                            class="user__name"
+                                            placeholder="Your name..."
+                                        />
+                                        <p></p>
+                                    </div>
+                                    <div class="form-input__user__title"></div>
+                                    <div class="form-input__user__comment">
+                                        <textarea
+                                            class="user__comment"
+                                            v-model="message"
+                                            placeholder="Comment..."
+                                        ></textarea>
+                                    </div>
+                                    <button class="form-submit" name="form-submit">Send</button>
+                                    <button class="form-cancel" name="form-cancel">cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- contact us -->
+            <div id="contact-us-wrap" class="contact-us-wrap">
+                <div class="tour-title title-form">
+                    <h3>Choose your</h3>
+                    <h2>Contact us</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem
+                        ipsum.
+                    </p>
+                </div>
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-12 m-12">
+                            <div class="contact-us">
+                                <div class="contact-us__container">
+                                    <div class="contact-info">
+                                        <h2 class="hide-on-mobile-tablet">Contact Info</h2>
+                                        <ul class="info-list">
+                                            <li>
+                                                <span><img src="../image/location.png" alt="iconImg" /></span>
+                                                <span
+                                                    >2912 MeadowBrook Road<br />
+                                                    Los Angeles, CA<br />
+                                                    90017</span
+                                                >
+                                            </li>
+
+                                            <li>
+                                                <span><img src="../image/mail.png" alt="iconImg" /></span>
+                                                <span>cuong53612@donga.edu.vn</span>
+                                            </li>
+
+                                            <li>
+                                                <span><img src="../image//call.png" alt="iconImg" /></span>
+                                                <span>0916074130</span>
+                                            </li>
+                                        </ul>
+                                        <ul class="social-list">
+                                            <li>
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fab fa-tiktok"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="contact-form">
+                                        <h2>Send a Message</h2>
+                                        <div class="form-box">
+                                            <div class="input-box w50">
+                                                <input id="first-name" type="text" name="" required />
+                                                <span>First Name</span>
+                                                <div class="form-message"></div>
+                                            </div>
+                                            <div class="input-box w50">
+                                                <input id="last-name" type="text" name="" required />
+                                                <span>Last Name</span>
+                                                <div class="form-message"></div>
+                                            </div>
+                                            <div class="input-box w50">
+                                                <input id="email-address" type="email" name="" required />
+                                                <span>Email Address</span>
+                                                <div class="form-message"></div>
+                                            </div>
+                                            <div class="input-box w50">
+                                                <input id="mobile-number" type="text" name="" required />
+                                                <span>Mobile Number</span>
+                                                <div class="form-message"></div>
+                                            </div>
+                                            <div class="input-box w100" id="mg-bottom">
+                                                <textarea
+                                                    id="user-message"
+                                                    name=""
+                                                    id=""
+                                                    cols="30"
+                                                    rows="10"
+                                                    required
+                                                ></textarea>
+                                                <span>Write your message here...</span>
+                                                <div class="form-message"></div>
+                                            </div>
+                                            <div class="input-box w100">
+                                                <button class="form-submit">Send</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class="footer-wrap">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-6 c-12">
+                            <div class="footer">
+                                <div class="footer__logo">
+                                    <img src="../image/logo-color.png" alt="logo" />
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et
+                                        nibh condimentum venenatis eu ac magnasin. Quisque interdum est mauris, eget
+                                        ullamcorper.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6">
+                            <div class="footer">
+                                <div class="footer-form footer__connect">
+                                    <h2>connect with us</h2>
+                                    <p>SOCIAL MEDIA CHANNELS</p>
+                                    <ul class="footer__social">
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12">
+                            <div class="footer">
+                                <div class="footer-form footer__subcribe">
+                                    <h2>Newsletter</h2>
+                                    <p>SIGN UP FOR SPECIAL OFFERS</p>
+                                    <div class="footer__subcribe__input">
+                                        <input type="email" placeholder="Email" />
+                                        <button>subcribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copyright">
+                <h2>© Copyright 2023 by Trần Tiến Tùng</h2>
+            </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+        <script src="./assets/main.js"></script>
+        <script src="./assets/validator.js"></script>
+
+        <script>
+            Validator({
+                form: '.contact-form',
+                errorSelector: '.form-message',
+                rules: [
+                    Validator.isRequired('#first-name', 'Please enter your first name'),
+                    Validator.isRequired('#last-name', 'Please enter your last name'),
+                    Validator.isRequired('#email-address', 'Please enter your email'),
+                    Validator.isEmail('#email-address'),
+                    Validator.isRequired('#mobile-number', 'Please enter your number'),
+                    Validator.isRequired('#user-message', 'Please leave your message'),
+                ],
+                onSubmit(data) {
+                    // call API để tạo dữ liệu
+                    console.log(data);
+                },
+            });
+        </script>
+    </body>
+</html>
